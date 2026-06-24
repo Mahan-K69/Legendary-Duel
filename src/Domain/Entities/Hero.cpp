@@ -1,4 +1,4 @@
-#include "Domain/Hero.h" 
+#include "Domain/Entities/Hero.h" 
  
 int Hero::GetHP()const{
    return this->Hp;

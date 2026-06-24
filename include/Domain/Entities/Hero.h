@@ -1,7 +1,7 @@
 #ifndef HERO_H
 #define HERO_H
 #include <string>
-
+#include "Node/Node.h"
 class Hero {
   
     int MaxHp;
@@ -10,9 +10,10 @@ class Hero {
     int Move;
     int Range;
 
+    Node node;
+
     //Deck
     //Hand
-    //Node
 
     public:
     void SetName(std::string);
