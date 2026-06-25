@@ -1,7 +1,7 @@
 #ifndef NODE_H
 #define NODE_H
 #include <vector>
-#include "Domain/enums/Area.h"
+#include "Domain/Entities/Node/Area.h"
 
 struct Node{
     int id ;
