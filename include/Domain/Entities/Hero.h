@@ -1,7 +1,7 @@
 #ifndef HERO_H
 #define HERO_H
 #include <string>
-#include "Node/Node.h"
+#include "Node.h"
 class Hero {
   
     int MaxHp;
