@@ -7,7 +7,8 @@ enum class Area{
     BROWN,
     GREEN,
     CREAM,
-    PURPLE
+    PURPLE,
+    GREY
 };
 
 #endif /* AREA_H */

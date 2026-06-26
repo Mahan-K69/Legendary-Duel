@@ -1,7 +1,9 @@
 #ifndef HERO_H
 #define HERO_H
 #include <string>
+#include <vector>
 #include "Node.h"
+#include "Card.h"
 class Hero {
   
     int MaxHp;
@@ -10,10 +12,10 @@ class Hero {
     int Move;
     int Range;
 
-    Node node;
+    int node;
 
-    //Deck
-    //Hand
+   
+    std::vector<Card>Hand;
 
     public:
     void SetName(std::string);
