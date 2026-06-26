@@ -1,6 +1,7 @@
 # Build directories
 build/
 out/
+main.cpp
 
 # IDEs
 .vscode/
